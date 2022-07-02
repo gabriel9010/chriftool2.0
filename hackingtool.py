@@ -36,7 +36,7 @@ logo = """\033[33m
   ███    ███     ███    ███ ███    ███   ███ ▀███▄ ███  ███   ███   ███    ███          ███     ███    ███ ███    ███ ███▌    ▄ 
   ███    █▀      ███    █▀  ████████▀    ███   ▀█▀ █▀    ▀█   █▀    ████████▀          ▄████▀    ▀██████▀   ▀██████▀  █████▄▄██ 
                                          ▀                                                                            ▀                             
-                                    \033[34m[✔] https://github.com/Z4nzu/hackingtool   [✔]
+                                    \033[34m[✔] https://github.com/gabriel9010/chriftool [✔]
                                     \033[34m[✔]            Version 1.1.0               [✔]
                                     \033[91m[X] Please Don't Use For illegal Activity  [X]
 \033[97m """
