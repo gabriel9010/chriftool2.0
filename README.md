@@ -210,11 +210,11 @@
 
 #### This Tool Must Run As ROOT !!!
 
-    git clone https://github.com/Z4nzu/hackingtool.git
+    git clone https://github.com/gabriel9010/chriftool2.0
     
     chmod -R 755 hackingtool  
     
-    cd hackingtool
+    cd chriftool2.0
     
     sudo pip3 install -r requirement.txt
     
