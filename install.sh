@@ -28,7 +28,7 @@ echo "  ███    ███     ███    ███ ███    ███
 echo "  ███    █▀      ███    █▀  ████████▀    ███   ▀█▀ █▀    ▀█   █▀    ████████▀          ▄████▀    ▀██████▀   ▀██████▀  █████▄▄██ ";
 echo "                                         ▀                                                                            ▀         ";
 
-echo -e "${BLUE}                                    https://github.com/Z4nzu/hackingtool ${NC}"
+echo -e "${BLUE}                                    https://github.com/gabriel9010/chriftool2.0 ${NC}"
 echo -e "${RED}                                     [!] This Tool Must Run As ROOT [!]${NC}\n"
 echo -e ${CYAN}                "Select Best Option : \n"
 echo -e "${WHITE}              [1] Kali Linux / Parrot-Os (apt)"
@@ -36,7 +36,7 @@ echo -e "${WHITE}              [2] Arch Linux (pacman)" # added arch linux suppo
 echo -e "${WHITE}              [0] Exit "
 echo -n -e "Z4nzu >> "
 read choice
-INSTALL_DIR="/usr/share/doc/hackingtool"
+INSTALL_DIR="/usr/share/doc/chriftool2.0"
 BIN_DIR="/usr/bin/"
 if [ $choice == 1 ] || [ $choice == 2 ]; then
 	echo "[*] Checking Internet Connection .."
@@ -53,7 +53,7 @@ if [ $choice == 1 ] || [ $choice == 2 ]; then
 
 	    echo "[✔] Checking directories..."
 	    if [ -d "$INSTALL_DIR" ]; then
-	        echo "[!] A Directory hackingtool Was Found.. Do You Want To Replace It ? [y/n]:" ;
+	        echo "[!] A Directory chriftool2.0 Was Found.. Do You Want To Replace It ? [y/n]:" ;
 	        read input
 	        if [ "$input" = "y" ]; then
 	            sudo rm -R "$INSTALL_DIR"
@@ -63,11 +63,11 @@ if [ $choice == 1 ] || [ $choice == 2 ]; then
 	    fi
 
         echo "[✔] Installing ...\n";
-        sudo git clone https://github.com/Z4nzu/hackingtool.git "$INSTALL_DIR";
+        sudo git clone https://github.com/gabriel9010/chriftool2.0 "$INSTALL_DIR";
         echo "#!/bin/bash
-        python3 $INSTALL_DIR/hackingtool.py" '${1+"$@"}' > hackingtool;
-        sudo chmod +x hackingtool;
-        sudo cp hackingtool /usr/bin/ && rm hackingtool;
+        python3 $INSTALL_DIR/chriftool2.0.py" '${1+"$@"}' > chriftool2.0;
+        sudo chmod +x chriftool2.0;
+        sudo cp hackingtool /usr/bin/ && rm chriftool2.0;
 
         echo "\n[✔] Trying to installing Requirements ..."
         if [ $choice == 1 ]; then
@@ -88,7 +88,7 @@ if [ $choice == 1 ] || [ $choice == 2 ]; then
         echo "[✔] Successfuly Installed !!! \n\n";
         echo -e $ORANGE "       [+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
         echo            "       [+]                                                             [+]"
-        echo -e $ORANGE "       [+]     ✔✔✔ Now Just Type In Terminal (hackingtool) ✔✔✔         [+]"
+        echo -e $ORANGE "       [+]     ✔✔✔ Now Just Type In Terminal (chriftool) ✔✔✔         [+]"
         echo            "       [+]                                                             [+]"
         echo -e $ORANGE "       [+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
     else
