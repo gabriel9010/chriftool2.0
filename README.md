@@ -220,7 +220,7 @@
     
     bash install.sh
     
-    sudo hackingtool
+    sudo chriftool2.0
 
  After Following All Steps Just Type In Terminal **root@kaliLinux:~** **hackingtool**
 
